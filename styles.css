@@ -1,0 +1,186 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.main-container{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.header{
+  padding: 2px 2px;
+  background-color: #696969;
+  width: 100%;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+
+navigation form {
+  position: relative;
+}
+
+navigation input[type="text"] {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+navigation button[type="submit"] {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}
+
+navigation button[type="submit"] i {
+  font-size: 1.2rem;
+}
+
+navigation button[type="submit"]:hover {
+  background-color: #e5e5e5;
+}
+
+navigation button[type="submit"]:active {
+  background-color: #ddd;
+}
+
+navigation input[type="text"].active {
+  display: block;
+}
+
+navigation button[type="submit"].active {
+  display: block;
+}
+
+
+
+
+.rankone{
+  list-style: none;
+  display: flex;
+  gap: 140px;
+}
+
+.rankone li a{
+  color: gainsboro;
+}
+
+.bodyone{
+ position: relative;
+ align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.bodytwo{
+  width: 100%;
+}
+
+.imgone{
+  position: relative;
+}
+
+/* Navigation styles */
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navone,
+.navtwo,
+.nav3,
+.navfour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.navone li,
+.navtwo li,
+.nav3 li,
+.navfour li {
+  list-style: none;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.navone a,
+.navtwo a,
+.nav3 a,
+.navfour a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navone a:hover,
+.navtwo a:hover,
+.nav3 a:hover,
+.navfour a:hover {
+  color: #007aff;
+}
+
+
+/* Footer styles */
+
+.footerr {
+  background-color: #fff;
+  color: grey;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-one {
+  list-style: none;
+  margin: 0;
+  padding: 3px;
+  display: flex;
+}
+
+.footer-one li {
+  margin-right: 20px;
+}
+
+.footer-one li:last-child {
+  margin-right: 0;
+}
+
+.footer-one li a {
+  color: grey;
+  text-decoration: none;
+}
+
+.footer-one li a:hover {
+  text-decoration: underline;
+}
